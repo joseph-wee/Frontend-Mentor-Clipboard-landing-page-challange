@@ -1,0 +1,115 @@
+body {
+  margin-top: 0;
+}
+.container {
+  width : 1440px;
+  margin : 0 auto;
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  padding-top: 80px
+}
+.head {
+  text-align: center;
+}
+.middle_alignment {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+
+}
+a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+  line-height: 2.5em;
+  width: 150px;
+  text-align: center;
+  border-radius: 1.5em;
+}
+.ios {
+  background-color: darkcyan;
+}
+.mac {
+  background-color: hsl(233, 100%, 69%)
+}
+main {
+  display: flex;
+  height: 700px
+}
+.moniter {
+  width: 50%;
+  background-image: url(./images/image-computer.png);
+  background-repeat: no-repeat;
+  background-position: -35px center;
+  background-size: 105%;
+  
+  
+}
+.middle {
+  max-width: 50%;
+  padding: 200px 0px 0 30px;
+
+
+}
+.ipad {
+  height: 600px;
+  background-image: url(./images/image-devices.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.explain {
+  display: flex;
+  justify-content: center;
+}
+.explain > * {
+
+  text-align: center;
+}
+.bottom > * {
+
+  width: 15%;
+  height: 80px;
+}
+.bottom_logo{
+
+  background-image: url(./images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: center;
+}
+.logos {
+  width: 40%;
+}
+
+.link {
+  color: hsl(210, 10%, 33%);
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.facebook {
+  background-image: url(./images/icon-facebook.svg);
+  width: 8%;
+  height: 50%;
+  background-repeat: no-repeat;
+
+}
+.twetter {
+  background-image: url(./images/icon-twitter.svg);
+  width: 8%;
+  height: 50%;
+  background-repeat: no-repeat;
+
+}
+.instagram {
+  background-image: url(./images/icon-instagram.svg);
+  width: 8%;
+  height: 50%;
+  background-repeat: no-repeat;
+
+}

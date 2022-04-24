@@ -1,1 +1,1 @@
-# Frontend-Mentor-Clipboard-landing-page-challange
+# Frontend Mentor - Clipboard landing page
